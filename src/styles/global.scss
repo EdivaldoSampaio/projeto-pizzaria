@@ -1,0 +1,36 @@
+:root {
+    --primary: #CD212A;
+    --background: #E5E5E5; 
+    --border-color: #595959;
+    --text-color: #000000;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+ font-family: 'Inter', Arial, sans-serif;
+ font-size: 16px;
+}
+
+body {
+    background-color: var(--background);
+}
+
+h1 {
+font-size: 40px;
+font-family: EB Garamond, Arial, sans-serif;
+
+}
+
+button {
+
+    font-family: Inter, Arial, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+

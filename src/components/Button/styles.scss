@@ -1,0 +1,15 @@
+.button-navbar {
+    display: flex;
+    flex-direction: column;
+
+    button {
+
+        height: 2.5rem; //40px
+        background-color: var(--background);
+
+        border: none;
+        border-radius: 0.5rem; //8px;
+
+        margin-top: 1.25rem; //20px;
+    }
+}

@@ -1,0 +1,30 @@
+
+.pizzas {
+    width: 100%;
+    margin: 1rem;
+
+
+    h1 {
+     margin: 1rem;
+     
+     font-size: 32px;
+     font-family: EB Garamond;   
+     font-weight: 500;
+     text-align: left;
+   
+    }
+
+}
+
+.card-container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem; // 32px
+    column-gap: 2rem; // 52px
+
+    @media (max-width: 950px) {
+        grid-template-columns: 1fr;
+      }
+
+}

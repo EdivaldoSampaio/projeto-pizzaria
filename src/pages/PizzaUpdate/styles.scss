@@ -1,0 +1,82 @@
+shape {
+    margin-top: 4rem;
+    margin-right: 10rem;
+  
+  }
+   
+  h2 {
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 1.2rem;
+  
+    margin-bottom: 0.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  input {
+    font-family: 'Inter';
+    font-size: 1rem;
+  
+    border-color: var(--border-input-color);
+    border-style:groove;
+    border-radius: 0.25rem;
+   
+    padding: 0 1.5rem;
+  
+    height: 3rem;
+    width: 31rem;
+  }
+  
+  h1 {
+    font-size: 2rem; // 40px
+    font-family: 'EB Garamont';
+    font-weight: 800;
+  
+    margin-top: 1rem;
+    margin-left: 1rem;
+  
+  }
+  
+  .buttonFormUpdate {
+
+    height: 48px;
+    width: 508px;
+    padding: 0 1rem;
+    background-color: #008C45;
+    margin: 2rem;
+    font-size: 18px;
+    font-family: Inter;
+    color: #FFFF;
+
+    border-radius: 4px;
+    border: none;
+
+    transition: 0.3s;
+
+    &:hover {
+        filter: brightness(125%);
+    }
+ 
+}
+
+
+.buttonFormRemove {
+
+    height: 48px;
+    width: 508px;
+    padding: 0 1rem;
+    background-color: #CD212A;
+    margin: 0.1rem;
+    font-size: 18px;
+    font-family: Inter;
+    color: #FFFF;
+
+    border-radius: 4px;
+    border: none;
+
+    transition: 0.3s;
+
+    &:hover {
+        filter: brightness(125%);
+    }
+ 
+}

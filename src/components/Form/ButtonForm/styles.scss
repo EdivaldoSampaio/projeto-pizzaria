@@ -1,0 +1,67 @@
+
+    .buttonFormRegister {
+
+        height: 48px;
+        width: 508px;
+        padding: 0 1rem;
+        background-color: #008C45;
+        margin: 2rem;
+        font-size: 18px;
+        font-family: Inter;
+        color: #FFFF;
+
+        border-radius: 4px;
+        border: none;
+
+        transition: 0.3s;
+    
+        &:hover {
+            filter: brightness(125%);
+        }
+     
+    }
+
+    .buttonFormUpdate {
+
+        height: 48px;
+        width: 508px;
+        padding: 0 1rem;
+        background-color: #008C45;
+        margin: 2rem;
+        font-size: 18px;
+        font-family: Inter;
+        color: #FFFF;
+
+        border-radius: 4px;
+        border: none;
+
+        transition: 0.3s;
+    
+        &:hover {
+            filter: brightness(125%);
+        }
+     
+    }
+
+
+    .buttonFormRemove {
+
+        height: 48px;
+        width: 508px;
+        padding: 0 1rem;
+        background-color: #CD212A;
+        margin: 2rem;
+        font-size: 18px;
+        font-family: Inter;
+        color: #FFFF;
+
+        border-radius: 4px;
+        border: none;
+
+        transition: 0.3s;
+    
+        &:hover {
+            filter: brightness(125%);
+        }
+     
+    }
